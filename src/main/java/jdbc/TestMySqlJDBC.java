@@ -10,8 +10,7 @@ public class TestMySqlJDBC {
 
 	public static void main(String[] args) {
 		String url = "jdbc:mysql://localhost:3306/db_springboot?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+
 			try {
 				Connection conexion = DriverManager.getConnection(url, "root", "admin");
 				Statement instruccion = conexion.createStatement();
@@ -24,10 +23,6 @@ public class TestMySqlJDBC {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace(System.out);
-		}
 	}
 
 }

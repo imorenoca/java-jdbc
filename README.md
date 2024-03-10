@@ -11,4 +11,6 @@ Dificultades encontradas:
 * En el curso se usa Netbeans, para mis ejercicios uso Eclipse, es más complejo.
 * Librerías que no se usan.
 * DriverManager
-* Class.forName("com.mysql.cj.jdbc.Driver")
+* Class.forName("com.mysql.cj.jdbc.Driver") 
+
+[Interesante artículo sobre la JPA y la persistencia](https://www.campusmvp.es/recursos/post/la-api-de-persistencia-de-java-que-es-jpa-jpa-vs-hibernate-vs-eclipselink-vs-spring-jpa.aspx)

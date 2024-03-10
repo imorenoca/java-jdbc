@@ -17,8 +17,14 @@ public class TestMySqlJDBC {
 				String sql = "SELECT id, name, lastname, programming_language from persons ";
 				ResultSet resultado = instruccion.executeQuery(sql);
 				while(resultado.next()) {
-					System.out.println("ID: " + resultado.getInt("id"));
+					System.out.print(" ID: " + resultado.getInt("id"));
+					System.out.print(" Nombre: " + resultado.getString("name"));
+					System.out.print( " Lenguaje de Programación: " + resultado.getString("programming_language"));
+					System.out.println(" ");
 				}
+				resultado.close();
+				instruccion.close();
+				conexion.close();
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

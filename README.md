@@ -6,3 +6,8 @@ Version: 2023-12 (4.30.0)
 Configuración del pom.xml: dependencias.  
 Conexión a la base de datos.  
 Impresión de registros mediante un while.  
+
+Dificultades encontradas:
+* Librerías que no se usan.
+* DriverManager
+* Class.forName("com.mysql.cj.jdbc.Driver")

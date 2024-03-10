@@ -8,6 +8,7 @@ Conexión a la base de datos.
 Impresión de registros mediante un while.  
 
 Dificultades encontradas:
+* En el curso se usa Netbeans, para mis ejercicios uso Eclipse, es más complejo.
 * Librerías que no se usan.
 * DriverManager
 * Class.forName("com.mysql.cj.jdbc.Driver")
